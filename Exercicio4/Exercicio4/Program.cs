@@ -12,10 +12,12 @@ namespace Exercicio4
         {
             Elefante f = new Elefante();
 
-            Console.WriteLine("Digite um numero para o elefnate");
+            Console.WriteLine("Digite um numero para o elefante");
             f.Num = Convert.ToInt32(Console.ReadLine());
 
             f.ExibirElefante();
+
+            Console.ReadKey();
         }
     }
 }
