@@ -12,6 +12,11 @@ namespace Exercicio2
         {
             Funcionario f = new Funcionario();
 
+            Console.Write("Digite seu nome: ");
+            f.Nome = Console.ReadLine();
+            Console.Write("Digite seu RG: ");
+            f.Rg = Console.ReadLine();
+
             f.Salario_Inicial = 1000; //em 2016
             f.Percentual = 0.015; //percentual inicial de aumento 2017 + 1.5% depois é 3% (p*2)
             //1000 + 0.015 2m 2017
