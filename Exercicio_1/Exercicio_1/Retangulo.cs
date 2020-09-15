@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercicio_1
 {
-    class Retangulo
+    public class Retangulo:Teste
     {
+
     }
 }
