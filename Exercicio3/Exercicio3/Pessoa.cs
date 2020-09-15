@@ -51,14 +51,30 @@ namespace Exercicio3
 		//metodo
 		public void ExibirValidade()
 		{
-			if ((dia > 31) || (mes > 12) || (ano > 2018))
+			if (dia > 31) 
 			{
-				Console.WriteLine("Data invalida");
+				Console.WriteLine("Dia invalido");
 			}
-			else
+			else 
 			{
-				Console.WriteLine("Data Valida"); 
+				if (mes > 12)
+				{
+					Console.WriteLine("Mes invalido");
+
+				}
+				else 
+				{
+					if (ano > 2018)
+					{
+						Console.WriteLine("Ano invalido");
+					}
+					else
+					{
+						Console.WriteLine("Data Valida");
+					}
+				}
 			}
+			
 		}
 	}
 }
