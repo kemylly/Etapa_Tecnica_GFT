@@ -21,7 +21,7 @@ namespace Exercicio4
 		{
 			Console.WriteLine("Um elefente... ");
 			int i = 0;
-			while(i <= this.num)
+			while(i < this.num)
 			{
 				Console.Write(" Incomoda ");
 				i++;
